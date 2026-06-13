@@ -5,23 +5,35 @@ import { Section } from '@/components/ui/Section'
 
 const skillGroups = [
   {
-    title: 'Interface',
-    skills: ['Design systems', 'Prototyping', 'Visual polish'],
+    title: 'Digital Marketing',
+    skills: ['Digital Strategy', 'Content Creation', 'SEO & Analytics', 'Meta Ads Manager', 'Google Analytics'],
   },
   {
-    title: 'Front-end',
-    skills: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+    title: 'Business Development',
+    skills: ['Strategic Negotiation', 'Tender Management', 'B2B Sales', 'Personal Selling', 'Client Relations'],
   },
   {
-    title: 'Interaction',
-    skills: ['Framer Motion', 'Micro-interactions', 'Responsive layouts'],
+    title: 'Project Management',
+    skills: ['Event Management', 'Budget Oversight', 'Team Leadership', 'Supply Chain', 'Data Management'],
+  },
+  {
+    title: 'Technical Skills',
+    skills: ['Microsoft Office Suite', 'Google Workspace', 'Canva', 'Adobe Photoshop', 'Data Analysis'],
+  },
+  {
+    title: 'Leadership',
+    skills: ['Team Direction', 'Strategic Planning', 'Stakeholder Management', 'Problem-Solving', 'Communication'],
+  },
+  {
+    title: 'Languages',
+    skills: ['Bahasa Indonesia', 'Bahasa Bali', 'English (TOEFL 570)', 'Professional Writing'],
   },
 ]
 
 export function Skills() {
   return (
-    <Section id="skills" title="Skills" subtitle="Core capabilities"> 
-      <div className="grid gap-6 md:grid-cols-3">
+    <Section id="skills" title="Skills" subtitle="Core Competencies"> 
+      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {skillGroups.map((group, index) => (
           <motion.div
             key={group.title}
@@ -29,18 +41,15 @@ export function Skills() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.6, ease: 'easeOut', delay: index * 0.08 }}
-            className="rounded-[28px] border border-white/10 bg-slate-950/80 p-6 shadow-surface"
+            className="rounded-[28px] border border-white/10 bg-slate-950/80 p-6 shadow-surface hover:border-brand-blue/20 transition"
           >
             <h3 className="text-lg font-semibold text-white">{group.title}</h3>
-            <div className="mt-5 space-y-4">
+            <div className="mt-5 space-y-3">
               {group.skills.map((skill) => (
-                <div key={skill} className="rounded-3xl border border-white/10 bg-white/5 p-4">
+                <div key={skill} className="rounded-3xl border border-white/10 bg-white/5 p-3">
                   <div className="flex items-center justify-between gap-4">
                     <p className="text-sm text-slate-200">{skill}</p>
-                    <span className="text-xs uppercase tracking-[0.24em] text-brand-blue">Advanced</span>
-                  </div>
-                  <div className="mt-3 h-2 overflow-hidden rounded-full bg-white/10">
-                    <div className="h-full w-3/4 rounded-full bg-gradient-to-r from-brand-blue to-brand-gold transition-all" />
+                    <div className="w-12 h-1.5 rounded-full bg-gradient-to-r from-brand-blue/40 to-brand-gold/40" />
                   </div>
                 </div>
               ))}
