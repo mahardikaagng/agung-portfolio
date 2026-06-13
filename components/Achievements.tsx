@@ -7,7 +7,7 @@ const stats = [
   { label: 'Institutional Tenders', value: '6+', description: 'Successfully secured' },
   { label: 'B2B Orders Managed', value: '6,000+', description: 'End-to-end fulfillment' },
   { label: 'Team Size Directed', value: '120+', description: 'Flagship event staff' },
-  { label: 'Event Budget Managed', value: '₹750M', description: 'IDR millions' },
+  { label: 'Event Budget Managed', value: 'IDR 750M', description: 'Production budget' },
   { label: 'Database Records', value: '1,483', description: '91% validity rate' },
   { label: 'GPA Achievement', value: '3.89/4', description: 'Udayana University' },
 ]

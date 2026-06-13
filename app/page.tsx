@@ -18,7 +18,7 @@ export default function Home() {
     <div className="relative overflow-hidden">
       <AnimatedBackground />
       <Navbar />
-      <main className="relative z-10 flex min-h-screen flex-col gap-20 px-6 pb-16 pt-24 md:px-10 lg:px-16">
+      <main className="relative z-10 flex min-h-screen flex-col gap-24 px-6 pb-20 pt-28 md:px-12 lg:px-16 lg:gap-32">
         <AnimatePresence mode="wait">
           <motion.div
             key="page"
@@ -26,7 +26,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.8, ease: 'easeOut' }}
-            className="space-y-28"
+            className="space-y-24 md:space-y-32"
           >
             <Hero />
             <About />

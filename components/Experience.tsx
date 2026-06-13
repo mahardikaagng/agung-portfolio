@@ -20,7 +20,7 @@ const timeline = [
     title: 'Chairman - DIES BKFEB 57',
     period: 'Feb - Aug 2024',
     company: 'Udayana University',
-    detail: 'Directed 120+ staff for 3-day flagship event with 2,000+ attendees. Managed IDR 750 million production budget including vendor negotiations and artist bookings. Secured 50%+ budget through corporate sponsorships and managed strategic liaisons with government officials.',
+    detail: 'Directed 120+ staff for 3-day flagship event with 2,000+ attendees. Managed IDR 750M production budget including vendor negotiations and artist bookings. Secured 50%+ budget through corporate sponsorships and managed strategic liaisons with government officials.',
   },
   {
     title: 'Freelance Business Development',
