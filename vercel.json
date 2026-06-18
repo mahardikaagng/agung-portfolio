@@ -1,12 +1,11 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": ".next/standalone",
   "env": {
     "NEXT_PUBLIC_SITE_URL": "https://example.com"
   },
   "headers": [
     {
-      "source": "/(.*)",
+      "source": "./(.*)",
       "headers": [
         {
           "key": "X-Content-Type-Options",
