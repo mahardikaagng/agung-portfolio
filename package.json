@@ -2,6 +2,9 @@
   "name": "agung-portfolio",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -30,7 +33,12 @@
     "pdf-parse": "^2.4.5",
     "pdfjs-dist": "^6.0.227",
     "postcss": "^8.4.37",
+    "rimraf": "^4.0.1",
     "tailwindcss": "^4.3.1",
     "typescript": "^5.5.4"
+  },
+  "overrides": {
+    "rimraf": "^4.0.1",
+    "glob": "^8.2.0"
   }
 }
