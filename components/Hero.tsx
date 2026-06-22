@@ -81,7 +81,7 @@ export function Hero() {
             <div className="absolute inset-0 bg-gradient-to-b from-brand-blue/5 via-transparent to-brand-gold/5 z-10 pointer-events-none" aria-hidden="true" />
             <div className="relative w-full h-full">
               <Image
-                src="/profile.jpg"
+                src="/profile.png"
                 alt="Anak Agung Gede Mahardika Juliananda"
                 fill
                 className="object-cover object-center"
