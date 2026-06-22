@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     description: 'BNSP Certified Digital Marketing Professional with expertise in Business Development, Strategic Operations, and Project Management.',
     images: [
       {
-        url: '/profile.jpg',
+        url: '/profile.png',
         width: 593,
         height: 838,
         alt: 'Anak Agung Gede Mahardika Juliananda',
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Anak Agung Gede Mahardika Juliananda | Digital Marketing Professional',
     description: 'BNSP Certified Digital Marketing Professional with expertise in Business Development, Strategic Operations, and Project Management.',
-    images: ['/profile.jpg'],
+    images: ['/profile.png'],
     creator: '@mahardikaagng',
   },
   robots: {
@@ -77,7 +77,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               name: 'Anak Agung Gede Mahardika Juliananda',
               alternateName: 'Agung Mahardika',
               url: SITE_URL,
-              image: '/profile.jpg',
+              image: '/profile.png',
               email: 'gungdemahardika@gmail.com',
               telephone: '+62812468733356',
               jobTitle: 'Digital Marketing Professional',
