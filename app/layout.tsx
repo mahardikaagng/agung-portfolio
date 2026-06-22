@@ -4,10 +4,12 @@ import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'], display: 'swap' })
 
+const SITE_URL = 'https://agung-portfolio-agung-mahardika-s-projects.vercel.app'
+
 export const metadata: Metadata = {
   title: 'Anak Agung Gede Mahardika Juliananda | Digital Marketing Professional',
   description: 'BNSP Certified Digital Marketing Professional with expertise in Business Development, Strategic Operations, and Project Management. Proven track record in securing institutional tenders, managing large-scale B2B operations, and leading high-impact projects.',
-  metadataBase: new URL('https://mahardikaagng.github.io'),
+  metadataBase: new URL(SITE_URL),
   authors: [{ name: 'Anak Agung Gede Mahardika Juliananda' }],
   keywords: [
     'Digital Marketing',
@@ -22,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://mahardikaagng.github.io',
+    url: SITE_URL,
     siteName: 'Anak Agung Gede Mahardika Juliananda',
     title: 'Anak Agung Gede Mahardika Juliananda | Digital Marketing Professional',
     description: 'BNSP Certified Digital Marketing Professional with expertise in Business Development, Strategic Operations, and Project Management.',
@@ -74,7 +76,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               '@type': 'Person',
               name: 'Anak Agung Gede Mahardika Juliananda',
               alternateName: 'Agung Mahardika',
-              url: 'https://mahardikaagng.github.io',
+              url: SITE_URL,
               image: '/profile.jpg',
               email: 'gungdemahardika@gmail.com',
               telephone: '+62812468733356',
